@@ -1,4 +1,4 @@
-package by.epamtc;
+package by.epamtc.run;
 
 public class Main {
 }
