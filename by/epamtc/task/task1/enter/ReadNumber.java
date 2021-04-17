@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReadNumber {
 
 
-    public static int MeetsTheConditionOfAmount(int value, boolean condition, String error) {
+    public static int meetsTheConditionOfAmount(int value, boolean condition, String error) {
         while (condition) {
             System.out.println(error);
             value = ReadNumber.readIntegerNumber();
@@ -14,7 +14,7 @@ public class ReadNumber {
         return value;
     }
 
-    public static int MeetsTheConditionOfChoice(int value, boolean condition, String error) {
+    public static int meetsTheConditionOfChoice(int value, boolean condition, String error) {
         while (condition) {
             System.out.println(error);
             value = ReadNumber.readIntegerNumber();

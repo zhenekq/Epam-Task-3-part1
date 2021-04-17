@@ -13,7 +13,7 @@ public class EnterArray {
         int amountOfElements = ReadNumber.readIntegerNumber();
         boolean amountLowerZero = amountOfElements < 0;
         String errorOfAmount = "Amount of elements can't be lower than zero!";
-        amountOfElements = ReadNumber.MeetsTheConditionOfAmount(amountOfElements, amountLowerZero,
+        amountOfElements = ReadNumber.meetsTheConditionOfAmount(amountOfElements, amountLowerZero,
                 errorOfAmount);
 
         Array array = new Array(amountOfElements);
@@ -29,7 +29,7 @@ public class EnterArray {
         int choice = ReadNumber.readIntegerNumber();
         boolean choiceCondition = choice <= 0 || choice > 3;
         String errorOfCondition = "You can choose only from 1, 2, 3!";
-        choice = ReadNumber.MeetsTheConditionOfChoice(choice, choiceCondition, errorOfCondition);
+        choice = ReadNumber.meetsTheConditionOfChoice(choice, choiceCondition, errorOfCondition);
 
         switch (choice) {
             case 1:
